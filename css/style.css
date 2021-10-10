@@ -1,5 +1,6 @@
 body {
     padding-top: 92px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar-dark {
@@ -37,4 +38,37 @@ body {
 div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6{
     padding: 0px;
   }
+
+  .distra {
+      background: url(../img/distra.jpg) no-repeat;
+      min-height: 679%;
+      background-size: cover;
+      height: 200px;
+  }
+
+  .drophover:hover {
+      background-color: #FE290E;
+  }
   
+
+  .footerSub {
+      font-weight: bold;
+      text-transform: uppercase;
+  }
+
+  .footerSub:after {
+      content: "";
+      display: block;
+      background-color: #fff;
+      height: 3px;
+      width: 60px;
+      margin-top: 10px;
+  }
+
+  .midia li img{
+    width: 50px;
+    display: flex;
+    margin-left: 10px;
+    padding: 5px;
+    border: solid 4px #fff;
+  }
