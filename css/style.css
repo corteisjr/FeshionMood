@@ -3,6 +3,10 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+    text-decoration: none !important;
+}
+
 .navbar-dark {
     background-color: #FE290E !important;
 }
@@ -44,7 +48,7 @@ div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6{
       background: url(../img/distra.jpg) no-repeat;
       min-height: 679%;
       background-size: cover;
-      height: 200px;
+      height: 250px;
   }
 
   .drophover:hover {
