@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Fashion Mood - Categoria</title>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <title>Fashion Mood</title>
 </head>
 <body>
     <header >
@@ -20,86 +21,58 @@
             
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto ">
-        <li class="nav-item dropdown active">
+        <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Categoria
             </a>
             <div class="dropdown-menu " aria-labelledby="navbarDropdown">
-              <a class="dropdown-item drophover" href="#">Homens</a>
+              <a class="dropdown-item drophover" href="categoria.html">Homens</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item drophover" href="#">Mulheres</a>
+              <a class="dropdown-item drophover" href="categoria.html">Mulheres</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item drophover" href="#">Crianças</a>
+              <a class="dropdown-item drophover" href="categoria.html">Crianças</a>
             </div>
           </li>
       <li class="nav-item ">
         <a class="nav-link text-white" href="loja.html">Loja</a>
       </li>
-
       <li class="nav-item">
-        <a class="nav-link text-white" href="contacto.html">Fale conosco</a>
+        <a class="nav-link text-white" href="#">Fale conosco</a>
       </li>
     </ul>
   </div>
     </nav>
 </header>
+
 <!-- Introdução -->
-    <section class="container">
-      <h2 class="text-center mt-4 subtitulo">Mulheres</h2>
-      <p class="text-center text-justify ">Desfrute do melhor que nós temos para você!!</p>
-      <div>
-        <ul class="gallery_box col-lg-12">
-          <li>
-            <img src="img/mulheres/item7.jpg" alt="" width="362px" height="366px">
-          </li>
-          <li>
-            <img src="img/mulheres/item2.jpg" alt="" width="362px" height="366px">
-          </li>
-          <li>
-            <img src="img/mulheres/item3.jpg" alt="" width="362px" height="366px">
-          </li>
-          <li>
-            <img src="img/mulheres/item4.jpg" alt="" width="362px" height="366px">
-          </li>
-          <li>
-            <img src="img/mulheres/item5.jpg" alt="" width="362px" height="366px">
-          </li>
-          <li>
-            <img src="img/mulheres/item6.jpg" alt="" width="362px" height="366px">
-          </li>
-        </ul> 
-      </div>
-      <div class="text-center mb-5">
-        <a href="loja.html" class="btn btn-primary">Comprar</a>
+<section class="container">
+    <div>
+        <h2 class="subtitulo text-center">Ainda com dúvida?</h2>
+        <p class="text-center">Fale conosco</p>
     </div>
-    </section>
+    
+    <div class="row">
+        <div class="col-lg">
+        <form action="" class="bg-light rounded p-4 box-shadow">
+            <div class="form-group">
+              <label for="inputNome">Nome</label>
+              <input type="email" class="form-control" id="inputNome" aria-describedby="emailHelp" placeholder="Seu nome" required>
+            </div>
 
-    <section >
-      <div class="distra">
-        <blockquote class="blockquote text-center text-white p-md-5 p-3">
-          <p class="citacao"><em>A vida é uma passarela e nós somos os modelos, devemos desfilar sem medo.</em></p>
-          <footer class="blockquote-footer text-white">Erika Tito</footer>
-        </blockquote>
-      </div>
-    </section>
+            <div class="form-group">
+              <label for="inputEmail">Email</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="Seu email" required>
+            </div>
 
-    <section class="container">
-      <div class="subtitulo">
-        <h2 class="text-center">Junte-se a nós</h2>
-    </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem"  rows="10" class="form-control"></textarea>
+            </div>
+                <a href="#" class="btn btn-primary">Enviar mensagem</a>
+          </form>
+        </div>
+</section>
 
-    <div class="card text-center">
-      <div class="card-header navbar-dark">
-        <h2 class="h6 text-white">Faça parte da nossa equipe</h2>
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Faça parte da nossa empresa e lucre com a gente!</h5>
-        <p class="card-text">Mais de 3000 Moçambicanos confiam e fazem parte da nossa empresa.</p>
-        <a href="contacto.html" class="btn btn-primary">Fazer parte</a>
-      </div>
-    </div>
-    </section>
-</article>
 
 <footer class="navbar-dark text-white footer mt-5">
   <div class="container py-4">
